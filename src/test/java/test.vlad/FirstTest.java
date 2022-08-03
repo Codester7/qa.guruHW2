@@ -32,7 +32,7 @@ public class FirstTest {
         $(".react-datepicker__day--001").click();
         $("#subjectsInput").setValue("Arts").pressEnter();
         $("[for=hobbies-checkbox-3]").click();
-        $("input#uploadPicture").uploadFile(new File("src/test/java/test.vlad/3045-saunders-gentoo_RJ.jpg"));
+        $("input#uploadPicture").uploadFile(new File("src/test/resources/3045-saunders-gentoo_RJ.jpg"));
         $("#currentAddress").setValue("Улица Пушкина, дом Колотушкина");
         $("#react-select-3-input").setValue("NCR").pressEnter();
         $("#react-select-4-input").setValue("Noida").pressEnter();
